@@ -63,3 +63,13 @@ form{
 main{
     text-align: center;
 }
+a:hover{
+    padding:1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    outline: none;
+    
+    }
+    a{
+        transition: 0.6s;
+    }

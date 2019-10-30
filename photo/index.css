@@ -24,10 +24,9 @@ form{
     font-weight: bolder;
       text-decoration: none;
       margin-left: 20px;
-  }
-  a:hover{
 
   }
+  
  form{
      text-align: center;
      vertical-align: middle;
@@ -71,13 +70,62 @@ label{
     margin-top: 20px; 
     color: rgba(0, 0, 0, 0.3);
 }
+
+.img{
+    display: inline-block;
+}
+
 a:hover{
-    padding:1rem;
-    background-color: rgba(255, 255, 255, 0.3);
-    text-decoration: none;
-    outline: none;
-    
-    }
-    a{
-        transition: 0.6s;
-    }
+padding:1rem;
+background-color: rgba(255, 255, 255, 0.3);
+text-decoration: none;
+outline: none;
+
+}
+a{
+    transition: 0.6s;
+}
+.animation{
+    margin-left: 300px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: #640404;
+    animation: proj2 3s infinite alternate ease-in-out;
+}
+
+
+  @keyframes proj2 {
+      0%{
+        border-radius: 0 0 0 0;
+        background-color: rgb(144, 11, 170);
+        transform: rotate(0deg);
+      }
+      25%{
+        border-radius: 50% 0 0 0;
+        background-color: rgb(170, 11, 51);
+        transform: rotate(45deg);
+      }
+      50%{
+        border-radius: 50% 50% 0 0;
+        background-color: rgb(11, 22, 170);
+        transform: rotate(90deg);
+      }
+      75%{
+        border-radius: 50% 50% 50% 0;
+        background-color: rgb(11, 170, 162);
+        transform: rotate(135deg);
+      }
+      100%{
+        border-radius: 50% 50% 50% 50%;
+        background-color: rgb(212, 193, 23);
+        transform: rotate(180deg);
+      }
+  }
+  .img:hover{
+      transform: rotate(45deg);
+  }
+  .img{
+      border: 1px dashed black;
+      transition: 0.6s;
+  }
