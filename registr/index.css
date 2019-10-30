@@ -1,7 +1,7 @@
 body {
     text-align: center;
     position: relative;
-    background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ),  url('11.jpg');
+    background:  linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url('../11.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ form{
     clear: both;
   }
   a{
-      font-weight: bolder;
+    font-weight: bolder;
       text-decoration: none;
       margin-left: 20px;
   }
@@ -62,4 +62,12 @@ form{
 }
 main{
     text-align: center;
+}
+label{
+    width: 200px;
+    margin-left:-120px;
+}
+.description{
+    margin-top: 20px; 
+    color: rgba(0, 0, 0, 0.3);
 }
