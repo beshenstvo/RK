@@ -1,0 +1,53 @@
+form{
+    background-color: rgb(100, 98, 98,0.2);
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    width: 600px;
+    height: 100%;
+ }
+ input{
+    text-align: center;
+  }
+  .clearfix {
+    height: 0px;
+    clear: both;
+  }
+  a{
+      text-decoration: none;
+      margin-left: 20px;
+  }
+  a:hover{
+
+  }
+ form{
+     text-align: center;
+     vertical-align: middle;
+ }
+  header{
+    padding-top:20px;
+      text-align: center;
+      background-color: rgb(100, 98, 98,0.2);
+  }
+  .nameDev{
+      padding-bottom: 20px; 
+      text-align: right;
+      color: rgba(0, 0, 0, 0.5);
+      
+  }
+  .regist{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+  .tetris{
+      font-size: 40px;
+      letter-spacing: 5px;
+      color: rgba(0, 0, 0, 0.7);
+  }
+.form{
+    margin-top:5%;
+    margin-left: 28%;
+}
+.button1{
+ margin-top: 20px;
+}
